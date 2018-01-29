@@ -1,6 +1,6 @@
 <?php
 
-namespace Merkeleon\Form\Providers;
+namespace LeonardoAD\Form\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
