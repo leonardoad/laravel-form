@@ -3,12 +3,16 @@
       @if ($enctype) enctype="{{$enctype}}" @endif
       @if ($name) id="form-name-{{ $name }}" data-name="{{$name}}" @endif
       method="{{$method}}" action="{{ $action }}">
-    <div class="form__container">
-        @foreach($elements as $element)
-            {{ $element->render() }}
-        @endforeach
+      <div class="form__container">
+        @if ($html_elements)
+            {!! $html_elements !!}
+        @else
+            @foreach($elements as $element)
+                {{ $element->render() }}
+            @endforeach
+        @endif
         @if(!str_is('get', $method))
-            {{ csrf_field() }}
+        {{ csrf_field() }}
         @endif
     </div>
 </form>
