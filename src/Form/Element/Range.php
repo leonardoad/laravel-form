@@ -1,8 +1,8 @@
 <?php
 
-namespace Merkeleon\Form\Form\Element;
+namespace LeonardoADForm\Form\Element;
 
-use Merkeleon\Form\Form\Element;
+use LeonardoADForm\Form\Element;
 
 class Range extends Element
 {

@@ -6,7 +6,7 @@
  * Time: 12:55
  */
 
-namespace Merkeleon\Form\Form;
+namespace LeonardoADForm\Form;
 
 use Illuminate\Support\HtmlString;
 
