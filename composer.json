@@ -1,5 +1,5 @@
 {
-  "name": "merkeleon/laravel-form",
+  "name": "leonardoad/laravel-form",
   "description": "Form functionality for Laravel",
   "keywords": ["laravel", "form", "merkeleon"],
   "license": "MIT",
@@ -14,13 +14,13 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Merkeleon\\Form\\Providers\\FormServiceProvider"
+        "LeonardoAD\\Form\\Providers\\FormServiceProvider"
       ]
     }
   },
   "autoload": {
     "psr-4": {
-      "Merkeleon\\Form\\": "src/"
+      "LeonardoAD\\Form\\": "src/"
     }
   }
 }
