@@ -30,6 +30,9 @@ class Html extends Element
 
     public function view()
     {
+        if(empty($this->content)){
+            $this->content = $this->value();
+        }
         return view('form::' . $this->theme . '.element.html', [
             'label'   => $this->label,
             'content' => $this->content
